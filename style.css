@@ -1,0 +1,43 @@
+body {
+  background-color: transparent;
+}
+
+.caixa{
+  width: 100px;
+  border: 5px solid red;
+  text-align: center;
+}
+
+.botao,
+.botao1,
+.botao2,
+.botao3,
+.botao4{
+  border: none;
+  padding: 5px 10px;
+  background-color: rgb(185, 185, 28);
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+.botao:hover,
+.botao1:hover{
+  background-color: brown;
+}
+
+.botoes{
+  display: flex;
+  justify-content: space-between;
+  width: 110px;
+}
+
+.contador{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.titulo{
+  text-align: center;
+}
