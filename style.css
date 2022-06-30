@@ -1,11 +1,45 @@
-body {
-  background-color: transparent;
+*{
+  box-sizing: border-box;
 }
 
-.caixa{
-  width: 100px;
-  border: 5px solid red;
+body {
+  background-color: transparent;
+  width: 100%;
+}
+
+.h1{
   text-align: center;
+  font-family: 'Titan One', cursive;
+}
+
+.contadores{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 320px;
+
+}
+
+.caixa__caixa{
+  width: 85px;
+  height: 89px;
+  background-color: #A8A8A8;
+  padding: 26px 8px;
+  margin-left: 39px;
+}
+.caixa{
+  font-size: 14px;
+  font-family: 'Titan One';
+  text-align: center;
+}
+
+.caixinha {
+  width: 69px;
+  height: 38px; 
+  border: 5px solid red;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  box-shadow: 0px 4px 4px 0px black;
 }
 
 .botao,
@@ -14,30 +48,34 @@ body {
 .botao3,
 .botao4{
   border: none;
-  padding: 5px 10px;
-  background-color: rgb(185, 185, 28);
-  border-radius: 5px;
+  background-color: red;
+  border-radius: 10px;
   color: white;
-  text-align: center;
-}
-
-.botao:hover,
-.botao1:hover{
-  background-color: brown;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0px 4px 4px 0px black;
+  margin-bottom: 4px;
 }
 
 .botoes{
-  display: flex;
-  justify-content: space-between;
-  width: 110px;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .contador{
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  flex-direction: row-reverse;
+  align-items: center;
+  background-color: #D9C619;
+  margin-bottom: 23px;
+  border-radius: 10px;
 }
 
 .titulo{
+  font-family: 'Staatliches', cursive;
   text-align: center;
+  margin: 0;
+}
+
+.titulo__titulo{
+  margin: 0;
 }
