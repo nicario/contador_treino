@@ -47,13 +47,12 @@ botoes1.forEach(function(btn){
       contador1 = contador1 + 5;
       numeros1.textContent = contador1;
     }else if(numero1.contains("cfh")){
-      contador1 = contador1 + 5;
+      contador1 = contador1 + 10;
       numeros1.textContent = contador1;
     }else if(numero1.contains("ncfh")){
       contador1 = contador1 + 5;
       numeros1.textContent = contador1;
-    }else if(numero1.contains("estudar")){
-      contador1 = contador1 + 5;
+    }else if(numero1.contains("estudar")){ contador1 = contador1 + 5;
       numeros1.textContent = contador1;
     }else{
       contador1 = 0;
@@ -72,7 +71,7 @@ botoes1.forEach(function(btn){
         contador2 = contador2 + 5;
         numeros2.textContent = contador2;
       }else if(numero2.contains("sagua")){
-        contador2 = contador2 + 5;
+        contador2 = contador2 + 10;
         numeros2.textContent = contador2;
       }else if(numero2.contains("html")){
         contador2 = contador2 + 5;
@@ -94,10 +93,10 @@ botoes1.forEach(function(btn){
         contador3 = contador3 + 5;
         numeros3.textContent = contador3;
         }else if(numero3.contains("pagina")){
-          contador3 = contador3 + 5;
+          contador3 = contador3 + 10;
           numeros3.textContent = contador3;
         }else if(numero3.contains("dormir")){
-          contador3 = contador3 + 5;
+          contador3 = contador3 + 10;
           numeros3.textContent = contador3;
         }else if(numero3.contains("ndormir")){
           contador3 = contador3 + 5;
@@ -116,13 +115,13 @@ botoes1.forEach(function(btn){
           contador4 = contador4 + 5;
           numeros4.textContent = contador4;
           }else if(numero4.contains("sbanho")){
-            contador4 = contador4 + 5;
+            contador4 = contador4 + 10;
             numeros4.textContent = contador4;
           }else if(numero4.contains("ced")){
-            contador4 = contador4 + 5;
+            contador4 = contador4 + 10;
             numeros4.textContent = contador4;
           }else if(numero4.contains("nced")){
-            contador4 = contador4 + 5;
+            contador4 = contador4 + 20;
             numeros4.textContent = contador4;
           }else{
             contador4 = 0;
